@@ -1,0 +1,151 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark: #BA4270;
+    --link_water: #E1E1E1;
+    --sanJuanBlue: #36536B;
+    --LgitSan: #012F34;
+    --mirge: #1B262F;
+    --charm: #DA6D97;
+    --backgraund: #EDF3F8;
+    --abaut_cart: #012F34;
+}
+
+
+
+
+@font-face {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url("../fonts/dm-serif-display-v10-latin-regular.woff2") format("woff2"), url("../fonts/dm-serif-display-v10-latin-regular.woff") format("woff");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* public-sans-regular - latin */
+@font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/public-sans-v14-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/public-sans-v14-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* public-sans-600 - latin */
+@font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+        url('../fonts/public-sans-v14-latin-600.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/public-sans-v14-latin-600.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* public-sans-700 - latin */
+@font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/public-sans-v14-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/public-sans-v14-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 1;
+    font-family: inherit;
+}
+
+input,
+textarea,
+button {
+    font-family: "DM Serif Display";
+    border: none;
+    outline: none;
+    resize: none;
+    background: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+body {
+    background-color: #EDF3F8;
+    min-width: 320px;
+    font-weight: 400;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/* general class */
+
+
+
+
+.general__button {
+    z-index: 1;
+    padding: 14px;
+    background-color: var(--dark);
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.115385px;
+    color: #FBFCFE;
+}
+
+.general__text {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.general__item {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.369231px;
+    color: #36536B;
+}
